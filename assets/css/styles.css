@@ -1,0 +1,82 @@
+@import url(https://fonts.google.com/specimen/Young+Serif);
+body{
+    background-color:hsl(30, 54%, 90%);
+    color:hsl(30, 10%, 34%);
+    font-family: Young Serif;
+    
+}
+.main{
+    max-width: 50%;
+    background-color:white;
+    border-radius: 20px;
+    padding:50px;
+    margin:0 auto;
+}
+h1{
+    color:black;
+}
+h3{
+    color:hsl(24, 5%, 18%);
+    display: inline-block;
+    margin-right:5px;
+}
+.sub-title{
+    font-size: 800;   
+}
+span{
+    font-weight: 900;
+    font-size: 20px;
+}
+ol,
+.sub-title{
+    color:hsl(14, 45%, 36%);
+}
+ul,
+ol{
+    list-style-position: outside;
+}
+
+ul li, 
+ol li{
+    margin-top:10px;
+    padding-left:10px;
+    color:hsl(30, 10%, 34%);
+}
+img{
+    width:100%;
+    border-radius: 20px;
+}
+
+.preparation{
+    box-sizing: border-box;
+    width:100%;
+    background-color: hsl(330, 100%, 98%);
+    padding:20px;
+}
+.preparation h2,
+table tr th{
+    color:hsl(332, 51%, 32%)
+}
+table caption{
+    margin:10px 0px;
+    text-align: left;
+}
+table{
+    width:100%;
+}
+ td,
+ th{
+    margin-bottom:10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom: 1px solid black;
+}
+th{
+    font-weight: bolder;
+    text-align: left;
+    width:50%;
+}
+td{
+    width:50%;
+    padding-left:30px;
+} 
