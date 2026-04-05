@@ -35,7 +35,6 @@ ul,
 ol{
     list-style-position: outside;
 }
-
 ul li, 
 ol li{
     margin-top:10px;
@@ -62,15 +61,18 @@ table caption{
     text-align: left;
 }
 table{
+    border-collapse: collapse;
     width:100%;
+}
+tr{
+   border-bottom: 1px solid black;
 }
  td,
  th{
     margin-bottom:10px;
     padding-top:20px;
     padding-bottom:20px;
-    border-bottom: 1px solid black;
-}
+ }
 th{
     font-weight: bolder;
     text-align: left;
